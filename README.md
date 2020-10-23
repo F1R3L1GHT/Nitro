@@ -17,7 +17,7 @@ const codes = fs.readFileSync('./codes.txt').toString().split('\n')
 const stream = fs.createWriteStream("./codeswgift.txt", { 'flags': 'a', 'encoding': null, 'mode': 0666})
 
 for(code in codes){
-  stream.write('discord.gift/' + codes[code])
+  stream.write('discord.gift/' + codes[code] + '\n')
   console.log('Wrote')
 }
 ```
