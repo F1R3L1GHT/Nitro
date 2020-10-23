@@ -21,3 +21,6 @@ for(code in codes){
   console.log('Wrote')
 }
 ```
+
+# NOTICE
+This is for example purposes only I do not condem bad usage of this program. I do not hold responsibility for any illegal usage of this program
